@@ -4,7 +4,7 @@ AI-powered pneumonia detection system developed using chest X-ray images and Con
 
 ---
 
-## 📖 Overview
+##  Overview
 
 PneumoScan AI is a web-based medical image analysis application that assists in the detection of pneumonia from chest X-ray images.
 
