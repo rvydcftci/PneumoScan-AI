@@ -1,33 +1,19 @@
-# 🩺 PneumoScan AI
+# 🫁 PneumoScan AI
 
-Deep learning based pneumonia detection system developed using Chest X-Ray images and Convolutional Neural Networks (CNN).
-
----
-
-## 📖 Project Overview
-
-PneumoScan AI is a web-based application that analyzes chest X-ray images and predicts whether the patient has:
-
-- NORMAL
-- PNEUMONIA
-
-The system also provides additional image processing visualizations such as:
-
-- CLAHE Contrast Enhancement
-- Edge Detection
-- Saliency Heatmap
+Akciğer radyografileri üzerinde pnömoni tespiti gerçekleştiren yapay zeka destekli web uygulaması.
 
 ---
 
 ## 🚀 Features
 
-- 📤 Upload chest X-ray images
-- 🧠 CNN-based pneumonia detection
-- 📊 Prediction confidence score
-- 🔥 Saliency Heatmap visualization
-- 🎨 CLAHE contrast enhancement
-- 📐 Edge detection visualization
-- 🖥️ User-friendly Streamlit interface
+- CNN tabanlı pnömoni tespiti
+- Akciğer röntgeni yükleme
+- Tahmin sonucu ve güven oranı gösterimi
+- CLAHE kontrast iyileştirme
+- Canny kenar çıkarımı
+- Saliency Heatmap ile model açıklanabilirliği
+- Eğitim ve test performans grafikleri
+- Geçmiş analiz görüntüleme
 
 ---
 
@@ -38,68 +24,47 @@ The system also provides additional image processing visualizations such as:
 - OpenCV
 - NumPy
 - Matplotlib
+- Scikit-Learn
 - Streamlit
+
+---
+
+## 📊 Model Information
+
+- Model Type: Convolutional Neural Network (CNN)
+- Input Size: 224×224
+- Classes:
+  - NORMAL
+  - PNEUMONIA
+- Optimizer: Adam
+- Loss Function: Binary Crossentropy
+- Test Accuracy: %82.69
 
 ---
 
 ## 📂 Dataset
 
-Chest X-Ray Images (Pneumonia)
-
-Source:
+This project uses the Chest X-Ray Images (Pneumonia) dataset available on Kaggle:
 
 https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 
-⚠️ Dataset images are not included in this repository.
-
----
-
-## 🧠 CNN Architecture
-
-The model consists of:
-
-- Conv2D (32 Filters)
-- MaxPooling2D
-- Conv2D (64 Filters)
-- MaxPooling2D
-- Conv2D (128 Filters)
-- MaxPooling2D
-- Conv2D (256 Filters)
-- MaxPooling2D
-- Dense (256)
-- Dropout (0.5)
-- Dense (128)
-- Dropout (0.3)
-- Output Layer (Sigmoid)
-
----
-
-## 📊 Model Performance
-
-| Metric | Value |
-|----------|----------|
-| Accuracy | 82.69% |
-
-The model achieved successful classification performance on unseen chest X-ray images.
+Dataset is not included in this repository due to size limitations and dataset licensing requirements.
 
 ---
 
 ## ⚙️ Installation
 
-### Clone Repository
-
 ```bash
 git clone https://github.com/rvydcftci/PneumoScan-AI.git
+
 cd PneumoScan-AI
-```
 
-### Install Dependencies
-
-```bash
 pip install -r requirements.txt
 ```
 
-### Run Application
+---
+
+## ▶️ Run Application
 
 ```bash
 streamlit run app.py
@@ -107,41 +72,50 @@ streamlit run app.py
 
 ---
 
-## 🖼️ Application Screenshots
-
-### 🏠 Home Screen
+## 🏠 Home Screen
 
 ![](1.jpeg)
 
 ---
 
-### 📤 Image Upload
+## 📤 Image Upload & Analysis
 
 ![](2.jpeg)
 
 ---
 
-### 🧠 Prediction Result
+## 🧠 Prediction Result
 
 ![](3.jpeg)
 
 ---
 
-### 🔥 Saliency Heatmap
+## 🎨 CLAHE & Edge Detection
 
 ![](4.jpeg)
 
 ---
 
-### 🎨 CLAHE Processing
+## 🔥 Saliency Heatmap
 
 ![](5.jpeg)
 
 ---
 
-### 📐 Edge Detection
+## 📊 Model Performance
 
 ![](6.jpeg)
+
+---
+
+## 📈 Performance Metrics
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+
+The developed CNN model achieved a test accuracy of 82.69% on the Chest X-Ray Pneumonia dataset.
 
 ---
 
@@ -149,10 +123,7 @@ streamlit run app.py
 
 **Rüveyda Çiftci**
 
----
+Fırat University  
+Software Engineering
 
-## ⚠️ Disclaimer
-
-This project was developed for educational and research purposes only.
-
-It should not be used as a substitute for professional medical diagnosis.
+2026
