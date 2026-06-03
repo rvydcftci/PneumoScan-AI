@@ -1,4 +1,4 @@
-# 🫁 PneumoScan AI
+#  PneumoScan AI
 
 Akciğer radyografileri üzerinde pnömoni tespiti gerçekleştiren yapay zeka destekli web uygulaması.
 
