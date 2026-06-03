@@ -1,4 +1,4 @@
-# 🫁 PneumoScan AI
+# PneumoScan AI
 
 AI-powered pneumonia detection system developed using chest X-ray images and Convolutional Neural Networks (CNN).
 
