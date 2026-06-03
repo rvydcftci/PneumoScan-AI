@@ -51,7 +51,7 @@ The system utilizes a custom Convolutional Neural Network (CNN) trained on the C
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 The project uses a custom Convolutional Neural Network consisting of:
 
@@ -74,7 +74,7 @@ The project uses a custom Convolutional Neural Network consisting of:
 
 ---
 
-## 📊 Model Performance
+##  Model Performance
 
 | Metric                   | Value              |
 | ------------------------ | ------------------ |
@@ -89,7 +89,7 @@ The training and validation results demonstrate that the proposed CNN model succ
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 This project uses the public Chest X-Ray Pneumonia Dataset:
 
@@ -99,7 +99,7 @@ https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 Clone the repository:
 
@@ -116,7 +116,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Run the Application
+## Run the Application
 
 ```bash
 streamlit run app.py
