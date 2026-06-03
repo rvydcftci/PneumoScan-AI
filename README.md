@@ -124,43 +124,43 @@ streamlit run app.py
 
 ---
 
-## 🏠 Home Screen
+##  Home Screen
 
 ![](1.jpeg)
 
 ---
 
-## 📤 Image Upload & Analysis
+##  Image Upload & Analysis
 
 ![](2.jpeg)
 
 ---
 
-## 🧠 Prediction Results
+##  Prediction Results
 
 ![](3.jpeg)
 
 ---
 
-## 🎨 CLAHE & Edge Detection
+##  CLAHE & Edge Detection
 
 ![](4.jpeg)
 
 ---
 
-## 🔥 Saliency Heatmap
+##  Saliency Heatmap
 
 ![](5.jpeg)
 
 ---
 
-## 📈 Model Performance
+##  Model Performance
 
 ![](6.jpeg)
 
 ---
 
-## 👩‍💻 Developer
+##  Developer
 
 **Rüveyda Çiftci**
 
