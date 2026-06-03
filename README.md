@@ -1,53 +1,53 @@
-# PneumoScan AI
+# 🫁 PneumoScan AI
 
 AI-powered pneumonia detection system developed using chest X-ray images and Convolutional Neural Networks (CNN).
 
 ---
 
-##  Overview
+## 📖 Overview
 
-PneumoScan AI is a web-based medical image analysis application that assists in the detection of pneumonia from chest X-ray images.
+PneumoScan AI is a web-based medical image analysis application designed to assist in the detection of pneumonia from chest X-ray images.
 
-The system uses a custom Convolutional Neural Network (CNN) trained on the Chest X-Ray Pneumonia dataset and provides prediction results together with image processing and explainable AI visualizations.
+The system utilizes a custom Convolutional Neural Network (CNN) trained on the Chest X-Ray Pneumonia dataset. In addition to classification, the application provides image processing techniques and explainable AI visualizations to support result interpretation.
 
 ---
 
 ## 🚀 Features
 
-- Chest X-ray image classification
-- Pneumonia detection using CNN
-- Confidence score visualization
-- CLAHE contrast enhancement
-- Canny edge detection
-- Saliency Heatmap visualization
-- Training and validation performance graphs
-- User-friendly Streamlit interface
+* Chest X-ray image classification
+* Pneumonia detection using CNN
+* Confidence score visualization
+* CLAHE contrast enhancement
+* Canny edge detection
+* Saliency Heatmap visualization
+* Training and validation performance graphs
+* User-friendly Streamlit interface
 
 ---
 
 ## 🛠 Technologies Used
 
-### Artificial Intelligence & Data Science
+### Artificial Intelligence & Deep Learning
 
-- Python
-- TensorFlow
-- Keras
-- NumPy
-- Scikit-Learn
+* Python
+* TensorFlow
+* Keras
+* NumPy
+* Scikit-Learn
 
 ### Image Processing
 
-- OpenCV
-- CLAHE
-- Canny Edge Detection
+* OpenCV
+* CLAHE
+* Canny Edge Detection
 
 ### Visualization
 
-- Matplotlib
+* Matplotlib
 
 ### Web Interface
 
-- Streamlit
+* Streamlit
 
 ---
 
@@ -55,33 +55,37 @@ The system uses a custom Convolutional Neural Network (CNN) trained on the Chest
 
 The project uses a custom Convolutional Neural Network consisting of:
 
-- 4 Convolutional Layers
-- Max Pooling Layers
-- Dense Layers
-- Dropout Regularization
-- Sigmoid Output Layer
+* 4 Convolutional Layers
+* Max Pooling Layers
+* Fully Connected (Dense) Layers
+* Dropout Regularization
+* Sigmoid Output Layer
 
 ### Training Parameters
 
-| Parameter | Value |
-|------------|------------|
-| Image Size | 224 × 224 |
-| Batch Size | 32 |
-| Optimizer | Adam |
-| Learning Rate | 0.0001 |
+| Parameter     | Value               |
+| ------------- | ------------------- |
+| Image Size    | 224 × 224           |
+| Batch Size    | 32                  |
+| Optimizer     | Adam                |
+| Learning Rate | 0.0001              |
 | Loss Function | Binary Crossentropy |
-| Epochs | 10 |
+| Epochs        | 10                  |
 
 ---
 
 ## 📊 Model Performance
 
-| Metric | Value |
-|----------|----------|
-| Test Accuracy | 82.69% |
-| Classes | NORMAL / PNEUMONIA |
+| Metric                   | Value              |
+| ------------------------ | ------------------ |
+| Training Accuracy        | 91.92%             |
+| Validation Accuracy      | 90.80%             |
+| Best Validation Accuracy | 91.95%             |
+| Training Loss            | 0.2829             |
+| Validation Loss          | 0.2228             |
+| Classes                  | NORMAL / PNEUMONIA |
 
-The model achieved promising results in distinguishing pneumonia cases from normal chest radiographs.
+The training and validation results demonstrate that the proposed CNN model successfully learned discriminative features from chest X-ray images and achieved strong classification performance.
 
 ---
 
@@ -89,7 +93,7 @@ The model achieved promising results in distinguishing pneumonia cases from norm
 
 This project uses the public Chest X-Ray Pneumonia Dataset:
 
-📎 https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 
 **Note:** The dataset is not included in this repository due to licensing and storage limitations.
 
@@ -160,7 +164,7 @@ streamlit run app.py
 
 **Rüveyda Çiftci**
 
-Software Engineering Student  
+Software Engineering Student
 Fırat University
 
 2026
