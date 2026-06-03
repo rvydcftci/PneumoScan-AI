@@ -1,0 +1,4 @@
+venv/
+chest_xray/
+*.h5
+__pycache__/
